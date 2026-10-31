@@ -1,0 +1,17 @@
+## Interface: 120000, 120001, 120005, 120007, 120100, 120105, 16001
+## Title: |cff0cd29fEllesmereUI|r Level Color Tooltip
+## Category: |cff0cd29fEllesmere|rUI
+## Group: EllesmereUI
+## Notes: Colours the level on unit tooltips by level range (grey / green / yellow / orange / red, like quest and mob difficulty). Settings: Dworak > Level Color Tooltip. /levelcolor
+## Author: Dworak
+## Version: 1.0.0
+## Dependencies: EllesmereUI
+## OptionalDeps: EllesmereUIDworak, EllesmereUIBlizzardSkin
+## SavedVariables: EllesmereUI_LevelColorTooltipDB
+## IconTexture: Interface\AddOns\EllesmereUI\media\eg-logo.tga
+
+# Core: settings + the tooltip recolour (works without the options page)
+LevelColorTooltip.lua
+
+# Options page (Dworak > Level Color Tooltip in the EllesmereUI panel, through EllesmereUIDworak)
+LevelColorTooltip_Options.lua
